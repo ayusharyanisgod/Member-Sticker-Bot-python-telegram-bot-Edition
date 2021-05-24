@@ -34,9 +34,23 @@ No One gonna Help You!! 💩💩
 
 DONATE_STRING = """
 
-Successfully wasted Your money
+NO DONATION NOW
 
 """
+
+HOW_IT_WORKS = """
+ADD THE BOT AS ADMIN
+The Bot counts the members in the chat then,
+Return a Relevant sticker from The sticker pack
+
+https://t.me/addstickers/DownloadStics_ThankYouMembers
+
+
+Helps Group Admins Avoid a Burden,
+
+© *Member_Sticker_Bot™*
+"""
+
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -330,12 +344,12 @@ def settings_button(bot: Bot, update: Update):
         else:
             LOGGER.exception("Exception in settings buttons. %s", str(query.data))
 
-
-
-
+@run_async
+@user_admin
+def how(bot: Bot, update: Update):
+    update.effective_message.reply_text(HOW_IT_WORKS, parse_mode=ParseMode.MARKDOWN)
 
             
-
 # © Notice
 # Bughunter0 2021
 # All Rights Reserved
@@ -364,16 +378,15 @@ def migrate_chats(bot: Bot, update: Update):
 def main():
     test_handler = CommandHandler("test", test)
     start_handler = CommandHandler("start", start, pass_args=True)
-
     help_handler = CommandHandler("help", get_help)
     help_callback_handler = CallbackQueryHandler(help_button, pattern=r"help_")
-
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
-
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
+    how_handler=CommandHandler("how",how)
 
     # dispatcher.add_handler(test_handler)
+    dispatcher.add_handler(how_handler)
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
     dispatcher.add_handler(settings_handler)

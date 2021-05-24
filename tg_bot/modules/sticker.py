@@ -133,5 +133,5 @@ dispatcher.add_handler(NEW_MEM_HANDLER)
 # © Notice
 # Bughunter0 2021
 # All Rights Reserved
-# t.me/bughubter0
+# t.me/bughunter0
 # github.com/bughunter0

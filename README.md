@@ -32,6 +32,6 @@
 
 # Credits
  
-[SpEcHiDe](https://github.com/SpEcHiDe)  For His  [PSonOfLarsBHMarie](https://github.com/SpEcHiDe/PSonOfLars_BHMarie)
-[PaulSonOfLars](https://github.com/PaulSonOfLars) For His [tgbot](https://github.com/PaulSonOfLars/tgbot)
-[DownloadStics](https://t.me/addstickers/DownloadStics_ThankYouMembers) For Their Sticker Pack
+[SpEcHiDe](https://github.com/SpEcHiDe)  For His  [PSonOfLarsBHMarie](https://github.com/SpEcHiDe/PSonOfLars_BHMarie) <br>
+[PaulSonOfLars](https://github.com/PaulSonOfLars) For His [tgbot](https://github.com/PaulSonOfLars/tgbot) <br>
+[DownloadStics](https://t.me/DownloadStics) For Their Sticker Pack [ThankYouMembers](https://t.me/addstickers/DownloadStics_ThankYouMembers)

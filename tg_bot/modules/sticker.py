@@ -88,17 +88,35 @@ def new_member(bot: Bot, update: Update):
     elif count is 400:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp8WCrjlPskv0cI2bjkocefjYgtkA6AAJ-AgACb8FkFLEuZPK4e-XOHwQ")               
     elif count is 450:
-                update.effective_message.reply_sticker("CAACAg")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp9GCrjyZ\_UJduUnF81DakBCh1buf4AAJ\_AgACb8FkFPJ2TY44h3N6HwQ")               
     elif count is 500:
-                update.effective_message.reply_sticker("CAACAg")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp92Crj0AwEaGbayhTtD-fk5YYax5jAAKAAgACb8FkFDdNlq54yRL6HwQ")               
     elif count is 550:
-                update.effective_message.reply_sticker("CAACAg")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp-mCrj1qG-X0B5fH8p2pkCgAB4jyKwgACgQIAAm\_BZBSPptVG0Fq4JB8E")               
     elif count is 600:
-                update.effective_message.reply_sticker("CAACAg")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp\_WCrj3PbLep6QljDXk5zvQ2DtzquAAKCAgACb8FkFM9xskyitVWxHwQ")               
     elif count is 650:
-                update.effective_message.reply_sticker("CAACAg")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqAAFgq4-U-ZYwN9NjQ3\_pmUA2iP3BhAACgwIAAm\_BZBQvwCFfDwjlvB8E")               
     elif count is 700:
-                update.effective_message.reply_sticker("CAACAg")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqA2CrkCvzVcHt1iWD3mdCzqHyBbtFAAKEAgACb8FkFHeWcxlF2xjEHwQ")               
+    elif count is 750:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqBmCrkD9fNnHje\_UKcZ7\_qEg7WtLiAAKFAgACb8FkFND5m5zAauszHwQ")               
+    elif count is 800:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqCWCrkFkkx9mTOclBopAR2WXTaqlpAAKGAgACb8FkFAZBHHiJozilHwQ")               
+    elif count is 850:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqDGCrkHNLxO\_RXjVgoz4kILONpN7DAAKHAgACb8FkFFmrvvzk7QZRHwQ")               
+    elif count is 900:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqEWCrkKOuTeR4zmIRAw7lHnT5MkXKAAKIAgACb8FkFFEX5yMmL9DLHwQ")               
+    elif count is 950:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqFGCrkMDDMLWyMWzSIoagwJyYGyk0AAKJAgACb8FkFM3a7eUdwjVxHwQ")               
+    elif count is 1000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqGWCrkOOa5UHFZXBSrWYfO7FyvOFSAAKKAgACb8FkFBAnB\_OSoszTHwQ")               
+    elif count is 1500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqHGCrkP9q4ZMqL9Pnm23bt-rpn1wHAAKLAgACb8FkFF7f1TftpoS3HwQ")               
+    elif count is 2000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqH2CrkS\_LgXE7bPqTyMjUA7NSzVJjAAKMAgACb8FkFBKXkZIBPS-LHwQ")               
+    elif count is 2500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqIGCrkTDzdwHEHYkK9Sf1Iz0sGR9hAAKNAgACb8FkFH5oCr7\_PZAlHwQ")               
 
 
 

@@ -127,9 +127,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                     
   
     else:
-        update.effective_message.reply_text("Contact me in PM to get the Help",
+        update.effective_message.reply_text("Now Add me as a Admin",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="Don't Flood Here !!! Check PM",
+                                                [[InlineKeyboardButton(text="Please Add me as Admin",
                                                                        url="t.me/{}?start=help".format(
                                                                            bot.username))]]))
        

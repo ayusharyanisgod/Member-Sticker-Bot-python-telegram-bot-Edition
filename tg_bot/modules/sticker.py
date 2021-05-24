@@ -67,10 +67,40 @@ def new_member(bot: Bot, update: Update):
     count = chat.get_members_count()
     if count is 3:
                 update.effective_message.reply_text("Hello boy , You are first")
-    elif count is 4:
+    elif count is 25:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp0GCriGh4oGz56qW1wdMHUJULU-wxAAJ1AgACb8FkFDCUuHcEvpgrHwQ")
-    elif count is 5:
+    elif count is 50:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp02CriHTL6W6VKEDkZ7SpDuBJ-hv\_AAJ2AgACb8FkFMQhQH7icivgHwQ")               
+    elif count is 75:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp2WCrjLF-chH9sdbwfZKRweC9wDpdAAJ3AgACb8FkFNnvojLmMWChHwQ")
+    elif count is 100:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp2mCrjLK9bjhBHxRKvY6mzC29zdX-AAJ4AgACb8FkFCHyjB1WKhwIHwQ")               
+    elif count is 150:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp22CrjLMcLfLnSbQ3MCyJAAF3p5pMfQACeQIAAm\_BZBQtPpJQWxVDnB8E")
+    elif count is 200:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp3GCrjLMSlZIUA135iaT2Be9Zhri4AAJ6AgACb8FkFDqPwakq2etKHwQ")               
+    elif count is 250:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp6GCrjf9Ynb5ref88s\_gaH8jbUoofAAJ7AgACb8FkFCFLPuqC5veCHwQ")               
+    elif count is 300:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp62Crjhl9OLuO0AQXOCD9KjI-jHKNAAJ8AgACb8FkFCmoLzif0k1eHwQ")               
+    elif count is 350:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp7mCrjjfNsHWivLln\_yOc\_P8gcYT-AAJ9AgACb8FkFOItmI8tdunbHwQ")               
+    elif count is 400:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp8WCrjlPskv0cI2bjkocefjYgtkA6AAJ-AgACb8FkFLEuZPK4e-XOHwQ")               
+    elif count is 450:
+                update.effective_message.reply_sticker("CAACAg")               
+    elif count is 500:
+                update.effective_message.reply_sticker("CAACAg")               
+    elif count is 550:
+                update.effective_message.reply_sticker("CAACAg")               
+    elif count is 600:
+                update.effective_message.reply_sticker("CAACAg")               
+    elif count is 650:
+                update.effective_message.reply_sticker("CAACAg")               
+    elif count is 700:
+                update.effective_message.reply_sticker("CAACAg")               
+
+
 
 
 

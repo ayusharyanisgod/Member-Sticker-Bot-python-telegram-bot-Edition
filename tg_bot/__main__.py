@@ -375,6 +375,12 @@ def donate(bot: Bot, update: Update):
             update.effective_message.reply_text("Contact me in PM first to get donation information.")
 
 
+# © Notice
+# Bughunter0 2021
+# All Rights Reserved
+# t.me/bughunter0
+# github.com/bughunter0
+
 def migrate_chats(bot: Bot, update: Update):
     msg = update.effective_message  # type: Optional[Message]
     if msg.migrate_to_chat_id:
@@ -440,3 +446,11 @@ def main():
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
     main()
+
+
+
+# © Notice
+# Bughunter0 2021
+# All Rights Reserved
+# t.me/bughunter0
+# github.com/bughunter0

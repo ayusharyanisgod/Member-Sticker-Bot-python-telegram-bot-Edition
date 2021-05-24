@@ -346,7 +346,7 @@ def settings_button(bot: Bot, update: Update):
 
 @run_async
 def how(bot: Bot, update: Update):
-    update.effective_message.reply_text(HOW_IT_WORKS, parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("{}".format(HOW_IT_WORKS))
 
             
 # © Notice

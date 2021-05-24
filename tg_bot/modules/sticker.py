@@ -1,4 +1,4 @@
-import pyrogram
+
 import html
 from typing import Optional, List
 import random

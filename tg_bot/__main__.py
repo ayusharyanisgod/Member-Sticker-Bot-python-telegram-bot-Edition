@@ -345,7 +345,6 @@ def settings_button(bot: Bot, update: Update):
             LOGGER.exception("Exception in settings buttons. %s", str(query.data))
 
 @run_async
-@user_admin
 def how(bot: Bot, update: Update):
     update.effective_message.reply_text(HOW_IT_WORKS, parse_mode=ParseMode.MARKDOWN)
 

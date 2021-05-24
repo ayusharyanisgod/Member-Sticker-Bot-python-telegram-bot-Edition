@@ -22,6 +22,4 @@
 
 # Deploy Here
 
-(https://heroku.com/deploy?template=https://github.com/bughunter0/member-sticker-bot)
-
-
+https://heroku.com/deploy?template=https://github.com/bughunter0/member-sticker-bot

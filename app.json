@@ -1,6 +1,6 @@
 {
-  "name": "Marie",
-  "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
+  "name": "Member-sticker-Bot",
+  "description": "No one gonna Help You !!! 💩💩",
   "logo": "https://telegra.ph/file/1925c7a2f601539ccde7a.png",
   "keywords": [
     "telegram",
@@ -12,9 +12,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/PaulSonOfLars/tgbot",
-  "website": "https://t.me/iamidiotareyoutoo",
-  "success_url": "https://t.me/iamidiotareyoutoo/2",
+  "repository": "https://github.com/bughunter0/member-sticker-bot",
+  "website": "https://bit.ly/3aC7gx9",
+  "success_url": "https://bit.ly/3aC7gx9",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
@@ -25,11 +25,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "254318997"
+      "value": ""
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "SonOfLars"
+      "value": ""
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -41,18 +41,6 @@
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
       "required": false
-    },
-    "SUDO_USERS": {
-      "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 18673980 83489514"
-    },
-    "SUPPORT_USERS": {
-      "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 18673980 83489514"
-    },
-    "WHITELIST_USERS": {
-      "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 18673980 83489514"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
@@ -66,24 +54,13 @@
       "description": "Whether to delete commands from users which don't have rights to use that command",
       "value": "True"
     },
-    "STRICT_GBAN": {
-      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
-      "value": "True"
-    },
+   
     "ALLOW_EXCL": {
       "description": "Whether to allow using exclamation marks ! for commands as well as /.",
       "value": "True"
     },
-    "BAN_STICKER": {
-      "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADfQADv7rGI0wxx1ORU7UzAg",
-      "required": false
-    },
-    "BMERNU_SCUT_SRELFTI": {
-      "description": "please set this value as 0",
-      "value": "1",
-      "required": false
-    }
+    
+    
   },
   "addons": [
     {

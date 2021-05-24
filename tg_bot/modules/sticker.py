@@ -67,9 +67,9 @@ def new_member(bot: Bot, update: Update):
     count = chat.get_members_count()
     if count is 1:
                 message.reply_text("Hello boy , You are first")
-            elif count is 2:
+    elif count is 2:
                 message.reply_sticker("CAACAgEAAxkBAAKp0GCriGh4oGz56qW1wdMHUJULU-wxAAJ1AgACb8FkFDCUuHcEvpgrHwQ")
-            elif count is 3:
+    elif count is 3:
                 message.reply_sticker("CAACAgEAAxkBAAKp02CriHTL6W6VKEDkZ7SpDuBJ-hv\_AAJ2AgACb8FkFMQhQH7icivgHwQ")               
 
 

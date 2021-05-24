@@ -10,3 +10,13 @@ __help__ = """
 ◆ New feature : Sticker added Upto 2500 members
 """
 __mod_name__ = "About"
+
+
+
+
+
+# © Notice
+# Bughunter0 2021
+# All Rights Reserved
+# t.me/bughunter0
+# github.com/bughunter0

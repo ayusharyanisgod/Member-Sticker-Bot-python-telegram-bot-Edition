@@ -129,7 +129,7 @@ def start(bot: Bot, update: Update, args: List[str]):
     else:
         update.effective_message.reply_text("Contact me in PM to get the Help",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="Welcome Help",
+                                                [[InlineKeyboardButton(text="Don't Flood Here !!! Check PM",
                                                                        url="t.me/{}?start=help".format(
                                                                            bot.username))]]))
        
@@ -174,7 +174,7 @@ def help_button(bot: Bot, update: Update):
     try:
         if mod_match:
             module = mod_match.group(1)
-            text = "Here is the help for the *{}* module:\n".format(HELPABLE[module].__mod_name__) \
+            text = "Join @BugHunterBots For Updates\n".format(HELPABLE[module].__mod_name__) \
                    + HELPABLE[module].__help__
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,

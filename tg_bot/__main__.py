@@ -20,17 +20,20 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
+Can't Do Anything here, To push me to my limits Add me to a 
+ Group 👇👇
 
 """
 
 HELP_STRINGS = """
 
-
+No One gonna Help You!! 💩💩
 
 """
 
 DONATE_STRING = """
 
+Successfully wasted Your money
 
 """
 IMPORTED = {}

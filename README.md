@@ -1,4 +1,4 @@
-# 🚫🚫Fork This Repo , Don't Import 🚫🚫
+# 🚫Fork This Repo , Don't Import 🚫
 
 
 ## © Owned By Respective Creators
@@ -9,10 +9,10 @@
 
  - [x] DEPLOY THE BOT 
  - [x] ADD STICKER UPTO 1000 MEMBERS
- - [ ] FEATURE : WORK IN TG CHANNEL
+ - [ ] ADD FEATURE : WORK IN TG CHANNEL
  - [ ] ADD MORE STICKERS
  - [x] Tell Everyone to Feel Free to Contribute
-
+ - [ ] Introduce New Sticker Pack
 
 # Member-Sticker-Bot
 

@@ -66,7 +66,7 @@ def new_member(bot: Bot, update: Update):
     join = update.effective_message.new_chat_members
     count = chat.get_members_count()
     if count is 3:
-                update.effective_message.reply_text("Hello boy , You are first")
+                update.effective_message.reply_text("We are 3 Now,")
     elif count is 25:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp0GCriGh4oGz56qW1wdMHUJULU-wxAAJ1AgACb8FkFDCUuHcEvpgrHwQ")
     elif count is 50:
@@ -119,8 +119,19 @@ def new_member(bot: Bot, update: Update):
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKqIGCrkTDzdwHEHYkK9Sf1Iz0sGR9hAAKNAgACb8FkFH5oCr7\_PZAlHwQ")               
 
 
+# more to cover 
+# use
+# elif count is {number}:
+#                update.effective_message.reply_sticker("sticker id")               
+   
 
 
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members, new_member)
 dispatcher.add_handler(NEW_MEM_HANDLER)
+
+# © Notice
+# Bughunter0 2021
+# All Rights Reserved
+# t.me/bughubter0
+# github.com/bughunter0

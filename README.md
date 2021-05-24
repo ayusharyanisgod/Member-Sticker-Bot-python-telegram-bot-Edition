@@ -1,11 +1,11 @@
 # 🚫Fork This Repo , Don't Import 🚫
 
 
-## © Owned By Respective Creators
+  #### © Owned By Respective Creators
 
 
 ## To Do List ☑
-### Halfway covered (Half more to Go) 💹
+ ### Halfway covered (Half more to Go) 💹
 
  - [x] DEPLOY THE BOT 
  - [x] ADD STICKER UPTO 1000 MEMBERS
@@ -15,6 +15,9 @@
  - [ ] Introduce New Sticker Pack
 
 # Member-Sticker-Bot
+
+ ## Take A Demo Here
+   [Member_Sticker_bot](https://t.me/member_sticker_bot)
 
 <A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/forks/bughunter0/member-sticker-bot?style=for-the-badge" alt=fork> </img>
 <A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/stars/bughunter0/member-sticker-bot?style=for-the-badge" alt=star> </img>

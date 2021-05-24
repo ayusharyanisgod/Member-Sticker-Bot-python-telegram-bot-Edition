@@ -20,32 +20,14 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-<b>You are a wonderful person with a wonderful view of life. Your companionship is always an opportunity to learn. A warm welcome to you to join us</b>
-
-A warm and sincere welcome gives a sense of caring and makes people feel appreciated, as well as making them feel that they have made a good choice in using a business in preference to others. Nurturing these relationships is a crucial part of growing a successful business – this takes time, commitment and enthusiasm.
-
-
-Use /help to find Welcome/Goodbye Formatting Help
-
-
 
 """
 
 HELP_STRINGS = """
 
 
-Main commands available:
 
- - /start: start the bot
- - /help: PM's you this message.
- - /welcome on
- - /setwelcome
- - /welcome
-
-
-{}
-More listed Below:
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
+"""
 
 DONATE_STRING = """
 

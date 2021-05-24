@@ -20,8 +20,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Can't Do Anything here, To push me to my limits Add me to a 
- Group 👇👇
+Nothing to do here,
+To push me to my limit Add me to a 
+Group 👇👇
 
 """
 
@@ -127,9 +128,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                     
   
     else:
-        update.effective_message.reply_text("Now Add me as a Admin",
+        update.effective_message.reply_text("Make me Admin. Do it Yourself , Because",
                                             reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="Please Add me as Admin",
+                                                [[InlineKeyboardButton(text="Remember This",
                                                                        url="t.me/{}?start=help".format(
                                                                            bot.username))]]))
        

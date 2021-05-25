@@ -117,14 +117,68 @@ def new_member(bot: Bot, update: Update):
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKqH2CrkS\_LgXE7bPqTyMjUA7NSzVJjAAKMAgACb8FkFBKXkZIBPS-LHwQ")               
     elif count is 2500:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKqIGCrkTDzdwHEHYkK9Sf1Iz0sGR9hAAKNAgACb8FkFH5oCr7\_PZAlHwQ")               
+    elif count is 3000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqbWCsxolKsS4dhUJEQvzLe0aYRjXuAAKOAgACb8FkFDbFTrzyB8eFHwQ")               
+    elif count is 3500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqbmCsxouolLXaoKk2C5rQaEUYE\_3JAAKPAgACb8FkFLFEIXI21CkuHwQ")               
+    elif count is 4000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqc2Csxsk0N5DMwxE4fCkoas0PUORyAAKQAgACb8FkFEa482BW-SgdHwQ")               
+    elif count is 4500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqdGCsxsl9fQcyqAABQh5u\_hPAT8ATbAACkQIAAm\_BZBQp7pS0Yn1KDx8E")               
+    elif count is 5000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqeWCsxvF82KBahWUBK195WNX2aXVMAAKmAgACb8FkFAABmvRInkQq1B8E")               
+    elif count is 5500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqfGCsxwakyu0e7oum67is2pDCakFMAAKnAgACb8FkFHy9dkRdqy85HwQ")               
+    elif count is 6000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqf2CsxxtaTiVWIrqZBAxiwxtZck5VAAKSAgACb8FkFO-7G5rKq-OGHwQ")               
+    elif count is 6500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqgGCsxx2qfiZ26XbyF9UWNg9XIQ81AAKTAgACb8FkFIyO8XGfp2-LHwQ")               
+    elif count is 7000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqgWCsxx4PPDKEKpJO2IwfzKI-AqfEAAKUAgACb8FkFIxl1Y3Zh7DUHwQ")               
+    elif count is 7500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqgmCsxx-q-vvKuy1PR0Ucsh2i\_b5qAAKWAgACb8FkFDJuVxkIH49nHwQ")               
+    elif count is 8000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqi2Csx5N5gdJN5UKIpiOLkLP1z1YSAAKVAgACb8FkFFfJp2LBYY2THwQ")               
+    elif count is 8500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqjGCsx5Sz4QbPsMzjbzDHw0V1S9ZQAAKXAgACb8FkFEuWh3xGJMEjHwQ")               
+    elif count is 9000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqjWCsx5Tq6kroylCm0R5Ba0ZbiINiAAKYAgACb8FkFAOgHXkDWNLUHwQ") 
+    elif count is 9500:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKquWCsyZmf9gh234AU3Vd\_3ZsNpbpEAAKZAgACb8FkFAlC7No4ds65HwQ")                        
+    elif count is 10000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqj2Csx5V4B2qeuDmZuo70Y9eDjoYZAAKaAgACb8FkFOc4tDz93va-HwQ")               
+    elif count is 11000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqmGCsyCShxnqxBSHX2nDbRk4XaVu-AAKbAgACb8FkFO97WSB0bRjmHwQ")               
+    elif count is 12000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqmWCsyHjlkn-BeuhsRrnmpmsEEquTAAKcAgACb8FkFBQzIWLKUlKpHwQ")               
+    elif count is 13000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqmmCsyHnnjIWUG7nsx4k6rVmVjx7MAAKdAgACb8FkFIwB7ZXinCE2HwQ")               
+    elif count is 14000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqm2CsyHq1O54DTM-skYGxZATx4lHRAAKeAgACb8FkFDToP3ZAv-\_LHwQ")               
+    elif count is 15000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqnGCsyHuMKgckj1BsTg0QeWYtawogAAKfAgACb8FkFHDtQBuvq-0SHwQ")               
+    elif count is 16000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqp2CsyOfi6BqA-TuLjEVcpi2ylnIUAAKgAgACb8FkFGS\_0OcY9eH\_HwQ")               
+    elif count is 17000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqqGCsyOgz35NuLj2StVxuc1XvOyv3AAKhAgACb8FkFDAjY2BB3IqXHwQ")                  
+    elif count is 18000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqqWCsyOiz\_jUHXzSdJLvUUv4UjIZEAAKiAgACb8FkFE8ckXdcKFUuHwQ")               
+    elif count is 19000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqqmCsyOncts5liNFhL8E9ZhZZvSu8AAKjAgACb8FkFOGlqzutkPoMHwQ")               
+    elif count is 20000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqq2CsyOlKkSUzc5NnWEkmIAwBYiicAAKkAgACb8FkFBwLYOllwLDXHwQ")               
+    elif count is 25000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKqrGCsyOp0ZcV8MoswUkzghb9ynVYDAAKlAgACb8FkFAqu5NwRTie3HwQ")               
+     
+
 
 
 # more to cover 
 # use
 # elif count is {number}:
-#                update.effective_message.reply_sticker("sticker id")               
+#                update.effective_message.reply_sticker("stickerid")               
    
-
+# use json bot to return Sticker ID
 
 
 NEW_MEM_HANDLER = MessageHandler(Filters.status_update.new_chat_members, new_member)

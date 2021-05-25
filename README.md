@@ -8,7 +8,7 @@
  ### Halfway covered (Half more to Go) 💹
 
  - [x] DEPLOY THE BOT 
- - [x] ADD STICKER UPTO 1000 MEMBERS
+ - [x] ADD STICKER UPTO 25000 MEMBERS
  - [ ] ADD FEATURE : WORK IN TG CHANNEL
  - [ ] ADD MORE STICKERS
  - [x] Tell Everyone to Feel Free to Contribute

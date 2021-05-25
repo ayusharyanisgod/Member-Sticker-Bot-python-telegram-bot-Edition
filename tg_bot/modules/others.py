@@ -7,7 +7,7 @@ __help__ = """
 ◆ Server : Heroku
 ◆ Database : Postgre SQL
 ◆ Build Status : stable (beta 1.0)
-◆ New feature : Sticker added Upto 2500 members
+◆ New feature : Sticker added Upto 25000 members
 """
 __mod_name__ = "About"
 

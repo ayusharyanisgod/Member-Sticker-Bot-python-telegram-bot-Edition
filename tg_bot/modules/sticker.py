@@ -67,6 +67,10 @@ def new_member(bot: Bot, update: Update):
     count = chat.get_members_count()
     if count is 3:
                 update.effective_message.reply_text("We are 3 Now,")
+    elif count is 5:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtAAFgsFYY1aKAxInpNJMYYn1V50si7AAC2QADMJFBRUJPOESwsw1jHwQ")
+    elif count is 10:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtAWCwVhlXekFkrYJx3DfoqLuhnISnAALYAAMrDUlF2pt6MjsOHFkfBA")
     elif count is 25:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp0GCriGh4oGz56qW1wdMHUJULU-wxAAJ1AgACb8FkFDCUuHcEvpgrHwQ")
     elif count is 50:
@@ -169,6 +173,24 @@ def new_member(bot: Bot, update: Update):
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKqq2CsyOlKkSUzc5NnWEkmIAwBYiicAAKkAgACb8FkFBwLYOllwLDXHwQ")               
     elif count is 25000:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKqrGCsyOp0ZcV8MoswUkzghb9ynVYDAAKlAgACb8FkFAqu5NwRTie3HwQ")               
+    elif count is 30000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtBmCwVpB3YPGLBnawjP6\_-82RSVUKAAKiAQACatlIRQPM7zY14FASHwQ")
+    elif count is 40000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtB2CwVpF--t6hLOziTVK4KiBkaiCaAAIEAQAC6wVARUgHHrCAlVfjHwQ")
+    elif count is 50000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtCGCwVpKG3I2EFAITefrIgXRS7xfEAAK2AAOzK0BFZZ67Eai2hP0fBA")
+    elif count is 60000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtCWCwVpI0syCabtZ8FG-XRrPvtkvfAAJ8AQACUKdARVgbGFYa4RKrHwQ")
+    elif count is 70000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtCmCwVpNd6ujQJ1\_RPREjcOQfDnxfAAJTAQAC1shARadqwBisDaalHwQ")
+    elif count is 80000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtC2CwVpTglVtjpbkFxfXXLFpVJ6ivAALoAANZ5UBFCmaz\_d8dsxsfBA")
+    elif count is 90000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtDGCwVpQv1DcS4YJuLDhfpMithMdDAALKAAMoWkBFKiSKj9nmRrcfBA")
+    elif count is 100000:
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtDWCwVpUG8eI45egbzbDsMBUGxHzsAAIrAQACCg9JRQV03n3GU89-HwQ")
+   # elif count is 110000:
+   #             update.effective_message.reply_sticker("stickerid")
      
 
 

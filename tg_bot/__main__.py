@@ -39,11 +39,13 @@ NO DONATION NOW
 """
 
 HOW_IT_WORKS = """
-ADD THE BOT AS ADMIN
+Just add me to the Group ,
+I can work in group even I'm not Admin
 The Bot counts the members in the chat then,
 Return a Relevant sticker from These sticker pack
 
 https://t.me/addstickers/DownloadStics_ThankYouMembers
+
 https://t.me/addstickers/BlazingSquad_Greetings
 
 Keeps the Group Full time Active,
@@ -142,7 +144,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     
   
     else:
-        update.effective_message.reply_text("Make me Admin. Do it Yourself , Because",
+        update.effective_message.reply_text("Successfully Added, To push me to my limit consider my Name In Admin panel, Check my About Here 👇 ",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Remember This",
                                                                        url="t.me/{}?start=help".format(

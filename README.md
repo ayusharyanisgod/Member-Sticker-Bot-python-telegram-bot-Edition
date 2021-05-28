@@ -8,11 +8,12 @@
  ### Halfway covered (Half more to Go) 💹
 
  - [x] DEPLOY THE BOT 
- - [x] ADD STICKER UPTO 25000 MEMBERS
+ - [x] ADD STICKER UPTO 25000(25k) MEMBERS 
+ - [x] Support 100000(100k) Members
  - [ ] ADD FEATURE : WORK IN TG CHANNEL
  - [ ] ADD MORE STICKERS
  - [x] Tell Everyone to Feel Free to Contribute
- - [ ] Introduce New Sticker Pack
+ - [x] Introduce New Sticker Pack
 
 # Member-Sticker-Bot
 
@@ -37,4 +38,5 @@
  
 [SpEcHiDe](https://github.com/SpEcHiDe)  For His  [PSonOfLarsBHMarie](https://github.com/SpEcHiDe/PSonOfLars_BHMarie) <br>
 [PaulSonOfLars](https://github.com/PaulSonOfLars) For His [tgbot](https://github.com/PaulSonOfLars/tgbot) <br>
-[DownloadStics](https://t.me/DownloadStics) For Their Sticker Pack [ThankYouMembers](https://t.me/addstickers/DownloadStics_ThankYouMembers)
+[DownloadStics](https://t.me/DownloadStics) For Their Sticker Pack [ThankYouMembers](https://t.me/addstickers/DownloadStics_ThankYouMembers) <br>
+BlazingSquad for Their [BlazingSquad_Greetings](https://t.me/addstickers/BlazingSquad_Greetings) Sticker Pack

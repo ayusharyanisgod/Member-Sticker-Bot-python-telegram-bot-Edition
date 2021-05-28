@@ -41,14 +41,14 @@ NO DONATION NOW
 HOW_IT_WORKS = """
 ADD THE BOT AS ADMIN
 The Bot counts the members in the chat then,
-Return a Relevant sticker from The sticker pack
+Return a Relevant sticker from These sticker pack
 
 https://t.me/addstickers/DownloadStics_ThankYouMembers
+https://t.me/addstickers/BlazingSquad_Greetings
 
+Keeps the Group Full time Active,
 
-Helps Group Admins Avoid a Burden,
-
-© *Member_Sticker_Bot™*
+© Member_Sticker_Bot™
 """
 
 IMPORTED = {}

@@ -1,20 +1,20 @@
 # Member Sticker Bot
 
- ## What is Member Sticker Bot
+## What is Member Sticker Bot
 Member Sticker Bot is a modular Telegram Bot that automatically return Relevant Thankyou / Greetings Sticker pack.
- ## Platform
+## Platform
 Made with [Python 3](www.python.org), Hosted on [HEROKU](www.heroku.com) Backed By [SQLALCHEMY](www.sqlalchemy.org)
- ## Configuration
-   - Not recommend way
+## Configuration
+  - Not recommend way
 
-      The prefered version is to use a config.py file, as it makes it easier to see all your settings grouped together. This file should be placed in your tg_bot folder, alongside the __main__.py file . This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of your other settings.
+     The prefered version is to use a config.py file, as it makes it easier to see all your settings grouped together. This file should be placed in your tg_bot folder, alongside the __main__.py file . This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of your other settings.
 
-      It is recommended to import sample_config and extend the Config class, as this will ensure your config contains all defaults set in the sample_config, hence making it easier to upgrade. 
-   - Recommend way
+     It is recommended to import sample_config and extend the Config class, as this will ensure your config contains all defaults set in the sample_config, hence making it easier to upgrade. 
+  - Recommend way
      
       Use Deploy Button For Direct Deployment
 
- ## Database
+## Database
 
 In the case of postgres, this is how you would set up a the database on a debian/ubuntu system. Other distributions may vary.
 

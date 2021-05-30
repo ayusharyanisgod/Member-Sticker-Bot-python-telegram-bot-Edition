@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Member Sticker Bot
 
-You can use the [editor on GitHub](https://github.com/bughunter0/member-sticker-bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ ## What is Member Sticker Bot
+Member Sticker Bot is a modular Telegram Bot that automatically return Relevant Thankyou / Greetings Sticker pack.
+ ## Platform
+Made with [Python 3](www.python.org), Hosted on [HEROKU](www.heroku.com) Backed By [SQLALCHEMY](www.sqlalchemy.org)
+ ## Configuration
+   - Not recommend way
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      The prefered version is to use a config.py file, as it makes it easier to see all your settings grouped together. This file should be placed in your tg_bot folder, alongside the __main__.py file . This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of your other settings.
 
-### Markdown
+      It is recommended to import sample_config and extend the Config class, as this will ensure your config contains all defaults set in the sample_config, hence making it easier to upgrade. 
+   - Recommend way
+     
+      Use Deploy Button For Direct Deployment
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ ## Database
 
-```markdown
-Syntax highlighted code block
+In the case of postgres, this is how you would set up a the database on a debian/ubuntu system. Other distributions may vary.
 
-# Header 1
-## Header 2
-### Header 3
+- install postgresql:
 
-- Bulleted
-- List
+`sudo apt-get update && sudo apt-get install postgresql`
 
-1. Numbered
-2. List
+- change to the postgres user:
 
-**Bold** and _Italic_ and `Code` text
+`sudo su - postgres`
 
-[Link](url) and ![Image](src)
-```
+- create a new database user (change YOUR_USER appropriately):
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`createuser -P -s -e YOUR_USER`
 
-### Jekyll Themes
+This will be followed by you needing to input your password.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bughunter0/member-sticker-bot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- create a new database table:
 
-### Support or Contact
+`createdb -O YOUR_USER YOUR_DB_NAME`
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Change YOUR_USER and YOUR_DB_NAME appropriately.
+
+- finally:
+
+`psql YOUR_DB_NAME -h YOUR_HOST YOUR_USER`
+
+This will allow you to connect to your database via your terminal.
+By default, YOUR_HOST should be 0.0.0.0:5432.
+
+You should now be able to build your database URI. This will be:
+
+`sqldbtype://username:pw@hostname:port/db_name`
+
+Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc)
+repeat for your username, password, hostname (localhost?), port (5432?), and db name.
+
+**NOTE: IF YOU ARE USING ENV , IT WILL BE AUTOMATICALLY FILLED BY THE HEROKU PLUGGING**

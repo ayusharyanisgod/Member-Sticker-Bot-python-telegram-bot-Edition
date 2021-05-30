@@ -1,4 +1,4 @@
-# 🚫Fork This Repo , Don't Import 🚫
+# Fork This Repo , Don't Import 
 
 
   #### © Owned By Respective Creators
@@ -20,14 +20,14 @@
  ## Take A Demo Here
    [Member_Sticker_bot](https://t.me/member_sticker_bot)
 
-<A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/forks/bughunter0/member-sticker-bot?style=for-the-badge" alt=fork> </img>
-<A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/stars/bughunter0/member-sticker-bot?style=for-the-badge" alt=star> </img>
+<A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/forks/bughunter0/member-sticker-bot?style=for-the-badge" alt=fork> 
+<A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/stars/bughunter0/member-sticker-bot?style=for-the-badge" alt=star> 
 
 <Br>
 
-<A href="www.python.org"><img src="https://img.shields.io/pypi/pyversions/django?label=python%20&logo=Python&logoColor=red" alt=python> </img>
+<A href="www.python.org"><img src="https://img.shields.io/pypi/pyversions/django?label=python%20&logo=Python&logoColor=red" alt=python> 
 
-<A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/last-commit/bughunter0/member-sticker-bot?style=for-the-badge://" alt=commit> </img>
+<A href="https://github.com/bughunter0"><img src="https://img.shields.io/github/last-commit/bughunter0/member-sticker-bot?style=for-the-badge://" alt=commit> 
 
 
 # Deploy Here

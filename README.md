@@ -12,7 +12,7 @@
  - [x] Support 100000(100k) Members
  - [ ] ADD FEATURE : WORK IN TG CHANNEL
  - [ ] ADD MORE STICKERS
- - [x] Tell Everyone to Feel Free to Contribute
+ - [x] Feel Free to Contribute
  - [x] Introduce New Sticker Pack
 
 # Member-Sticker-Bot

@@ -46,11 +46,14 @@ I can work in group even I'm not Admin
 The Bot counts the members in the chat then,
 Return a Relevant sticker from These sticker pack
 
-[THANKYOU_STICKERS](https://t.me/addstickers/DownloadStics_ThankYouMembers) [GREETINGS_STICKERS](https://t.me/addstickers/BlazingSquad_Greetings)
+THANKYOU_STICKERS - https://t.me/addstickers/DownloadStics_ThankYouMembers
+GREETINGS_STICKERS - https://t.me/addstickers/BlazingSquad_Greetings
 
 Keeps Group members Connected,
 
-© [Member_Sticker_Bot](https://t.me/BugHunterBots) ™
+© Member_Sticker_Bot
+
+@BugHunterBots ™
 """
 
 IMPORTED = {}

@@ -30,12 +30,14 @@ HELP_STRINGS = """
 
 No One gonna Help You!! 💩💩
 
+Read About Here 👇
 """
 
 DONATE_STRING = """
 
-NO DONATION NOW
+Thanks for that kind mind, But we are Working on a Better and Secure platform for Payment,
 
+Join @BugHunterBots For Further Updates
 """
 
 HOW_IT_WORKS = """
@@ -44,13 +46,11 @@ I can work in group even I'm not Admin
 The Bot counts the members in the chat then,
 Return a Relevant sticker from These sticker pack
 
-https://t.me/addstickers/DownloadStics_ThankYouMembers
+[THANKYOU_STICKERS](https://t.me/addstickers/DownloadStics_ThankYouMembers) [GREETINGS_STICKERS](https://t.me/addstickers/BlazingSquad_Greetings)
 
-https://t.me/addstickers/BlazingSquad_Greetings
+Keeps Group members Connected,
 
-Keeps the Group Full time Active,
-
-© Member_Sticker_Bot™
+© [Member_Sticker_Bot](https://t.me/BugHunterBots) ™
 """
 
 IMPORTED = {}

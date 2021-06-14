@@ -28,7 +28,7 @@ Group 👇👇
 
 HELP_STRINGS = """
 
-No One gonna Help You!! 💩💩
+Nobody gonna Help You!! 💩💩
 
 Read About Here 👇
 """
@@ -43,10 +43,11 @@ Join @BugHunterBots For Further Updates
 HOW_IT_WORKS = """
 Just add me to the Group ,
 I can work in group even I'm not Admin
-The Bot counts the members in the chat then,
-Return a Relevant sticker from These sticker pack
+I Bot counts the members in the chat then,
+Return a Relevant sticker from These sticker pack (Automatically)
 
 THANKYOU_STICKERS - https://t.me/addstickers/DownloadStics_ThankYouMembers
+
 GREETINGS_STICKERS - https://t.me/addstickers/BlazingSquad_Greetings
 
 Keeps Group members Connected,

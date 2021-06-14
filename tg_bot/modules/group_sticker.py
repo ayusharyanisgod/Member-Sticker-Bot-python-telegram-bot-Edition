@@ -66,17 +66,47 @@ def new_member(bot: Bot, update: Update):
     join = update.effective_message.new_chat_members
     count = chat.get_members_count()
     if count is 3:
-                update.effective_message.reply_text("We are 3 Now,")
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3VWDG5Gl0VyjbjSOK2pXo4e9WCjR6AAL1AgACufE4VgHHxPJeyWOKHwQ")
     elif count is 5:
-                update.effective_message.reply_sticker("CAACAgEAAxkBAAKtAAFgsFYY1aKAxInpNJMYYn1V50si7AAC2QADMJFBRUJPOESwsw1jHwQ")
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3WGDG5IjDeVkt0p7vmHBndjzhsCMlAAKQAgACCoU4Vh4T1CeHhp9dHwQ")
+    elif count is 7:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3W2DG5NyWz8Z5\_XEIvsIb8dgRX1gKAALdAgAC7f84ViojLrLihZXFHwQ")     
     elif count is 10:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKtAWCwVhlXekFkrYJx3DfoqLuhnISnAALYAAMrDUlF2pt6MjsOHFkfBA")
+    elif count is 20:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3XmDG5bOvRccI6xgzCnTTDis51gp8AAIyAwACtjQ5Vl\_xGgHnFbS4HwQ")     
     elif count is 25:
-                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp0GCriGh4oGz56qW1wdMHUJULU-wxAAJ1AgACb8FkFDCUuHcEvpgrHwQ")
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp0GCriGh4oGz56qW1wdMHUJULU-wxAAJ1AgACb8FkFDCUuHcEvpgrHwQ")    
+    elif count is 30:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3YWDG5clmpGlbeSNCkVa\_x9coebFYAALXAQACawABMVZAD68bdhsdLB8E")     
+    elif count is 35:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3ZGDG5dkxr6MmiZ4nmFMBct0\_JQw0AALDAgACdhE4VlXq3LxwIYXVHwQ")      
+    elif count is 40:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3Z2DG5hGpJLPU5cB56ZBmtp0-mP6SAAKkAgACQTU5VjaRqNv2TFeTHwQ")       
+    elif count is 45:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3amDG5ioRybt4VyS8\_zdEb36lHTLTAAK8AwACCKoxVqTbpnMk\_MQTHwQ")      
     elif count is 50:
-                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp02CriHTL6W6VKEDkZ7SpDuBJ-hv\_AAJ2AgACb8FkFMQhQH7icivgHwQ")               
+                update.effective_message.reply_sticker("CAACAgEAAxkBAAKp02CriHTL6W6VKEDkZ7SpDuBJ-hv\_AAJ2AgACb8FkFMQhQH7icivgHwQ")   
+    elif count is 55:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3bWDG55f0E6YcRklex5RCIIl6jaPEAAJSAwACI9U5VugjgalV5M1EHwQ")
+    elif count is 60:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3cGDG57JHL-t1D7Z5fROsIp7bWffPAAJNAgACKrU4VuCu1cQtX77xHwQ")
+    elif count is 65:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3c2DG585Y0-cOiHlMilsPe1rw4A02AAKjBAAC2DoxVo0AAfZxo3XDXh8E")
+    elif count is 70:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3dmDG5-8UGVBE-1U8K2Fd1PiSE4VcAAJIAgACE1g5VsL7ptwX608LHwQ")                   
     elif count is 75:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp2WCrjLF-chH9sdbwfZKRweC9wDpdAAJ3AgACb8FkFNnvojLmMWChHwQ")
+    elif count is 80:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3eWDG6AjR3gPHDTY527W5lO-drzbWAALzAgACe444Vurr0F\_5S6NsHwQ")
+    elif count is 85:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3emDG6Ak8EItAJOtfaBhjCczHGEweAALYAgACzj0xVoeTUX9wbijPHwQ")
+    elif count is 90:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3e2DG6AmEyC7V5s5YHP0YTk90QWW8AAJDBAACVQk5VkLLUBVbCmAFHwQ")
+    elif count is 95:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3fGDG6ArVoqeEHwhZcFfCLa1h9uTxAAIqAwACij05VhffSZgbF5LwHwQ")
+    elif count is 99:
+                update.effective_message.reply_sticker("CAACAgUAAxkBAAK3fWDG6AsQ9jxtHOvqxgUIh\_NABxRUAAK8AwACeFQ4VoQ3RqKdVqA-HwQ")        
     elif count is 100:
                 update.effective_message.reply_sticker("CAACAgEAAxkBAAKp2mCrjLK9bjhBHxRKvY6mzC29zdX-AAJ4AgACb8FkFCHyjB1WKhwIHwQ")               
     elif count is 150:

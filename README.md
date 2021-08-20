@@ -1,7 +1,4 @@
-# Fork This Repo , Don't Import 
 
-
-  #### © Owned By Respective Creators
 
 
 ## To Do List ☑

@@ -195,7 +195,7 @@ def help_button(bot: Bot, update: Update):
     try:
         if mod_match:
             module = mod_match.group(1)
-            text = "Join @BugHunterBots For Updates\n".format(HELPABLE[module].__mod_name__) \
+            text = "Join @TPVBotz For Updates\n".format(HELPABLE[module].__mod_name__) \
                    + HELPABLE[module].__help__
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,

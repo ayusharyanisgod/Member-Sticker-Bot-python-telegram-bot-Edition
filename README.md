@@ -1,6 +1,6 @@
-## Member-Sticker-Bot
+# Member-Sticker-Bot
 
-# Deploy NOW
+## Deploy NOW
 
 [DEPLOY NOW](https://heroku.com/deploy?template=https://github.com/ayusharyanisgod/Member-Sticker-Bot-python-telegram-bot-Edition)
 

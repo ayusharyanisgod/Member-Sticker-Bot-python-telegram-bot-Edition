@@ -51,10 +51,6 @@ THANKYOU_STICKERS - https://t.me/addstickers/DownloadStics_ThankYouMembers
 GREETINGS - https://t.me/addstickers/BlazingSquad_Greetings
 
 Keeps Group members Connected,
-
-© Member_Sticker_Bot
-
-@BugHunterBots ™
 """
 
 IMPORTED = {}

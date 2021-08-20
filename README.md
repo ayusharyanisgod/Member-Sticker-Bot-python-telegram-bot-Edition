@@ -1,5 +1,9 @@
 ## Member-Sticker-Bot
 
+# Deploy NOW
+
+[DEPLOY NOW](https://heroku.com/deploy?template=https://github.com/ayusharyanisgod/Member-Sticker-Bot-python-telegram-bot-Edition)
+
 
 ## To Do List ☑
  ### Halfway covered (Half more to Go) 💹
@@ -11,10 +15,6 @@
  - [ ] ADD MORE STICKERS
  - [x] Feel Free to Contribute
  - [x] Introduce New Sticker Pack
-
-# Deploy NOW
-
-[DEPLOY NOW](https://heroku.com/deploy?template=https://github.com/ayusharyanisgod/Member-Sticker-Bot-python-telegram-bot-Edition)
 
 # Credits
  

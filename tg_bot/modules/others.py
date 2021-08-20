@@ -1,9 +1,7 @@
 __help__ = """
-◆ Bot Name : *Member Sticker Bot*
-◆ Creator : [BUGHUNTER](http://t.me//bughunter0)
-◆ Credits :  [All Mentioned Here](https://github.com/bughunter0)
+◆ Bot Name : *Thanks Members Bot*
+◆ Creator : [TPVNetwork](http://t.me//TPVNetwork)
 ◆ Language : Python3
-◆ Source Code :  [BUGHUNTERBOTS](https://t.me/bughunterbots)
 ◆ Server : Heroku
 ◆ Database : Postgre SQL
 ◆ Build Version : 2.8 (Stable)

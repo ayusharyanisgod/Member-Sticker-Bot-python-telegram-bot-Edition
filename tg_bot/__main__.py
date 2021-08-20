@@ -19,10 +19,13 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-
-Nothing to do here,
-To push me to my limit Add me to a 
-Group 👇👇
+Hi,
+I'm Member Sticker Bot. 
+I Can Send Relevant Thankyou Sticker in Groups and Channel
+\n All Member count doesn't return a sticker, so I will send a Thank you message for the count which have no sticker,
+\n
+Nothing to Do here !! 😕
+🥺 ADD ME TO A GROUP THEN TRIGGER ME
 
 """
 

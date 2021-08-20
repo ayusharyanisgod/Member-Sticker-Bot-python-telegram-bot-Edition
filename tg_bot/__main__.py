@@ -29,19 +29,17 @@ Nothing to Do here !! 😕
 
 HELP_STRINGS = """
 Add me as an Admin For better performance,
-Make sure that I have the permission to Send stickers and Gifs in chat
-(With Access to All Messages)
-
-© @BugHunterBots
+Make sure that I have the permission to Send stickers and Gifs in chat (With Access to All Messages)
 
 Read About Here 👇
 """
 
 DONATE_STRING = """
 
-Thanks for that kind mind, But we are Working on a Better and Secure platform for Payment,
+Hi,
+You can buy coffee for the developer or something else .
 
-Join @BugHunterBots For Further Updates
+DM Developer Here - @bughunter0
 """
 
 HOW_IT_WORKS = """

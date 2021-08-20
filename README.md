@@ -32,7 +32,7 @@
 
 # Deploy Here
 
-[DEPLOY NOW](https://heroku.com/deploy?template=https://github.com/bughunter0/member-sticker-bot)
+[DEPLOY NOW](https://heroku.com/deploy?template=https://github.com/ayusharyanisgod/Member-Sticker-Bot-python-telegram-bot-Edition)
 
 # Credits
  

@@ -1,6 +1,6 @@
 __help__ = """
 ◆ Bot Name : *Thanks Members Bot*
-◆ Creator : [TPVNetwork](http://t.me//TPVNetwork)
+◆ Creator : [TPVNetwork](http://t.me/TPVNetwork)
 ◆ Language : Python3
 ◆ Server : Heroku
 ◆ Database : Postgre SQL

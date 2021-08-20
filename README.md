@@ -15,13 +15,7 @@
  - [x] Feel Free to Contribute
  - [x] Introduce New Sticker Pack
 
-# Member-Sticker-Bot
-
- ## Take A Demo Here
-   [Member_Sticker_bot](https://t.me/member_sticker_bot)
-
-
-# Deploy Here
+# Deploy NOW
 
 [DEPLOY NOW](https://heroku.com/deploy?template=https://github.com/ayusharyanisgod/Member-Sticker-Bot-python-telegram-bot-Edition)
 
